@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "italian";
+    src: url(Font/Italiana-Regular.ttf);
+}
+
+@font-face {
+    font-family: "k2d";
+    src: url(Font/K2D-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "k2dthin";
+    src: url(Font/K2D-Thin.ttf);
+}
+
+@font-face {
+    font-family: "k2dlight";
+    src: url(Font/K2D-Light.ttf);
+}
+
+@font-face {
+    font-family: "k2dbold";
+    src: url(Font/K2D-Bold.ttf);
+}
+
+@font-face {
+    font-family: "jsmath";
+    src: url(Font/jsMath-cmti10.ttf);
+}
+
+@font-face {
+    font-family: "charm";
+    src: url(Font/Charm-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(Font/Inter-Black.otf);
+}
+
+@font-face {
+    font-family: "k2dmed";
+    src: url(Font/K2D-Medium.ttf);
+}
+
+.container {
+    /*  max-width: 1200px;*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section1 {
+    background-color: black;
+}
+
+.watchespagenavele {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-family: "inter";
+    margin: 20px;
+}
+
+.watchespagenavele1 {
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 9px;
+    color: black;
+    font-family: "charm";
+    font-size: 37px;
+}
+
+.watchpagenav {
+    background-color: white;
+    align-items: center;
+    height: 153px;
+    display: flex;
+    padding-left: 9.25rem;
+    padding-right: 9.25rem;
+    text-align: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    width: 100%;
+    top: 1%;
+    color: white;
+}
+
+
+.fa-regular {
+    font-weight: 400;
+    font-size: 21px;
+    margin-right: 25px;
+    margin-left: 34px;
+    color: rgb(10, 10, 10);
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    font-size: 21px;
+    margin-left: 20px;
+    color: rgb(14, 14, 14);
+    margin-right: 15px;
+}
+
+
+/**SEC2***/
+
+.loginsection2 {
+    padding-top: 5%;
+    padding-left: 10.25rem;
+    padding-right: 9.15rem;
+    padding-bottom: 7%;
+}
+
+.logintitle{
+    font-size: 66px;
+    font-family: "k2dthin";
+}
+
+.logindes{
+    margin-top: 1%;
+    font-size: 17px;
+    font-family: "k2dlight";
+    color: #877F7F;
+}
+
+.donthavecc{
+    margin-top: 3%;
+    font-size: 18px;
+    padding-left: 2%;
+    padding: 1%;
+    padding-left: 2%;
+    font-family: "k2dlight";
+    background-color: #F9F9F9;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+/**sec3***/
+
+.loginsection3{
+    padding-left: 10.25rem;
+    padding-right: 9.15rem;
+    padding-bottom: 7%;
+}
+
+label{
+    font-size: 23px;
+    font-family: "k2dthin";
+}
+
+input#EMAIL {
+    margin-top: 2%;
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    border-right: none;
+}
+
+.password{
+    margin-top: 5%;
+}
+
+.forgetpass{
+    margin-top: 5%;
+    font-size: 19px;
+    font-family: "k2dbold";
+}
+
+.button-31 {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    overflow: hidden;
+    padding: 12px 22px 12px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    width: 100%;
+    height: 50%;
+}
+  
+  .button-31:hover,
+  .button-31:focus {
+    opacity: .75;
+  }
+
+  .subbuttonlogin{
+    margin-top: 2%;
+    display: flex;
+    width: 20%;
+    align-items: center;
+  }
+
+  /**sec10**/
+
+  .section10{
+    background-color: #101010;
+    padding-top:7%;
+    padding-right: 13.25rem;
+    padding-left:  13.25rem;
+  }
+
+  .watchlinks{
+    color: #fff;
+  }
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+  .titlefoot{
+    font-family: "k2dbold";
+    font-size: 23px;
+    margin-bottom: 1%;
+  }
+
+  .watchli{
+    font-family: "k2dthin";
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  /***/
+
+.watchlinkss{
+    color: #fff;
+    display: flex;
+  }
+
+  .titlefoot{
+    font-family: "k2dbold";
+    font-size: 23px;
+    margin-bottom: 1%;
+  }
+
+  .watchli{
+    font-family: "k2dthin";
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+  }
+
+  .socicon{
+    display: flex;
+    justify-content: space-between;
+}
+/*sec11*/
+.section11{
+    background-color: #101010;
+    padding-top: 5%;
+    padding-right: 13.25rem;
+    padding-left:  13.25rem;
+ padding-bottom: 3%;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "k2dbold";
+}
+
+i.fa-regular.fa-copyright {
+    color: white;
+    margin-right: 8px;
+}
