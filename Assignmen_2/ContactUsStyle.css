@@ -1,0 +1,380 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "italian";
+    src: url(Font/Italiana-Regular.ttf);
+}
+
+@font-face {
+    font-family: "k2d";
+    src: url(Font/K2D-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "k2dthin";
+    src: url(Font/K2D-Thin.ttf);
+}
+
+@font-face {
+    font-family: "k2dlight";
+    src: url(Font/K2D-Light.ttf);
+}
+
+@font-face {
+    font-family: "k2dbold";
+    src: url(Font/K2D-Bold.ttf);
+}
+
+@font-face {
+    font-family: "jsmath";
+    src: url(Font/jsMath-cmti10.ttf);
+}
+
+@font-face {
+    font-family: "charm";
+    src: url(Font/Charm-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(Font/Inter-Black.otf);
+}
+
+@font-face {
+    font-family: "k2dmed";
+    src: url(Font/K2D-Medium.ttf);
+}
+
+.container {
+    /*  max-width: 1200px;*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section1 {
+    background-color: black;
+}
+
+.watchespagenavele {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-family: "inter";
+    margin: 20px;
+}
+
+.watchespagenavele1 {
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 9px;
+    color: black;
+    font-family: "charm";
+    font-size: 37px;
+}
+
+.watchpagenav {
+    background-color: white;
+    align-items: center;
+    height: 153px;
+    display: flex;
+    padding-left: 9.25rem;
+    padding-right: 9.25rem;
+    text-align: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    width: 100%;
+    top: 1%;
+    color: white;
+}
+
+
+.fa-regular {
+    font-weight: 400;
+    font-size: 21px;
+    margin-right: 25px;
+    margin-left: 34px;
+    color: rgb(10, 10, 10);
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    font-size: 21px;
+    margin-left: 20px;
+    color: rgb(14, 14, 14);
+    margin-right: 15px;
+}
+
+
+/****sec2******/
+
+.contactsection2{
+    padding-top: 5%;
+    padding-left: 10.25rem;
+    padding-right: 9.15rem;
+    padding-bottom: 4%;
+}
+
+.contacttitle{
+    font-family: "k2dthin";
+    font-size: 50px;
+}
+
+
+/**sec3****/
+
+.contactsection3{
+
+    padding-left: 10.25rem;
+    padding-right: 9.15rem;
+    padding-bottom: 7%;
+}
+
+.contactrow1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactcol1{
+    width: 35%;
+    background-color: #F9F9F9;
+    height: fit-content;
+}
+
+.local{
+    font-family: "k2dthin";
+    font-size: 20px;  
+    margin-bottom: 5%;
+}
+.downarrow{
+    font-size: 12px;
+    text-align: end;
+    margin-bottom: 2%;
+}
+
+i.fa-solid.fa-angle-down {
+    font-size: 15px;
+}
+
+.number{
+    margin-top: 9%;
+    font-size: 15px;
+    font-family: "k2dbold";
+}
+
+.add{
+    padding: 11%;
+}
+
+.days{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9%;
+    font-size: 15px;
+    font-family: "k2dthin";
+}
+
+.nameinfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 20px;
+    font-family: "k2dthin";
+}
+
+input#EMAIL {
+    margin-top: 7%;
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    border-right: none;
+}
+
+.email{
+    width: 30%;
+
+}
+.password{
+    width: 30%;
+}
+
+
+.contactcol2{
+    width: 60%;
+}
+
+select#EMAIL {
+    margin-top: 6.4%;
+    border-top: none;
+    border-left: none;
+    border-color: #767676;
+    width: 100%;
+    border-right: none;
+    border-width: 2px;
+}
+input#EMAILS {
+    margin-top: 3%;
+    border-top: none;
+    border-left: none;
+    border-color: #767676;
+    width: 100%;
+    border-right: none;
+    border-width: 2px;
+}
+select#LOC {
+    margin-top: 3%;
+    border-top: none;
+    border-left: none;
+    border-color: #767676;
+    width: 100%;
+    border-right: none;
+    border-width: 2px;
+}
+.locationbar,.writeemail , .codenum , .yourmsg{
+    margin-top: 7%;
+}
+.msg{
+    font-size: 20px;
+    font-family: "k2dthin";
+    margin-bottom: 3%;
+}
+.yourloc{
+    width: 100%;
+}
+
+.codenum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PHNUM{
+    width: 46%;
+}
+
+.code{
+    width: 46%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.disclaimer{
+    margin-top: 7%;
+    font-size: 19px;
+    color: #877F7F;
+    font-family: "k2dlight";
+}
+
+.button-31 {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    overflow: hidden;
+    padding: 12px 22px 12px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    width: 100%;
+    height: 50%;
+}
+  
+  .button-31:hover,
+  .button-31:focus {
+    opacity: .75;
+  }
+
+  .subbuttonlogin{
+    margin-top: 4%;
+    display: flex;
+    width: 30%;
+    align-items: center;
+  }
+
+  /**sec10**/
+
+  .section10{
+    background-color: #101010;
+    padding-top:7%;
+    padding-right: 13.25rem;
+    padding-left:  13.25rem;
+  }
+
+  .watchlinks{
+    color: #fff;
+  }
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+  .titlefoot{
+    font-family: "k2dbold";
+    font-size: 23px;
+    margin-bottom: 1%;
+  }
+
+  .watchli{
+    font-family: "k2dthin";
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  /***/
+
+.watchlinkss{
+    color: #fff;
+    display: flex;
+  }
+
+  .titlefoot{
+    font-family: "k2dbold";
+    font-size: 23px;
+    margin-bottom: 1%;
+  }
+
+  .watchli{
+    font-family: "k2dthin";
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+  }
+
+  .socicon{
+    display: flex;
+    justify-content: space-between;
+}
+/*sec11*/
+.section11{
+    background-color: #101010;
+    padding-top: 5%;
+    padding-right: 13.25rem;
+    padding-left:  13.25rem;
+ padding-bottom: 3%;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "k2dbold";
+}
+
+i.fa-regular.fa-copyright {
+    color: white;
+    margin-right: 8px;
+}
