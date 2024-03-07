@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "italian";
+    src: url(Font/Italiana-Regular.ttf);
+}
+
+@font-face {
+    font-family: "k2d";
+    src: url(Font/K2D-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "k2dthin";
+    src: url(Font/K2D-Thin.ttf);
+}
+
+@font-face {
+    font-family: "k2dlight";
+    src: url(Font/K2D-Light.ttf);
+}
+
+@font-face {
+    font-family: "k2dbold";
+    src: url(Font/K2D-Bold.ttf);
+}
+
+@font-face {
+    font-family: "jsmath";
+    src: url(Font/jsMath-cmti10.ttf);
+}
+
+@font-face {
+    font-family: "charm";
+    src: url(Font/Charm-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(Font/Inter-Black.otf);
+}
+
+@font-face {
+    font-family: "k2dmed";
+    src: url(Font/K2D-Medium.ttf);
+}
+
+.container {
+    /*  max-width: 1200px;*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section1 {
+    background-color: black;
+}
+
+.watchespagenavele {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-family: "inter";
+    margin: 20px;
+}
+
+.watchespagenavele1 {
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 9px;
+    color: white;
+    font-family: "charm";
+    font-size: 37px;
+}
+
+.watchpagenav {
+    background-color: black;
+    align-items: center;
+    height: 153px;
+    display: flex;
+    padding-left: 9.25rem;
+    padding-right: 9.25rem;
+    text-align: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    width: 100%;
+    top: 1%;
+    color: white;
+}
+
+
+.fa-regular {
+    font-weight: 400;
+    font-size: 21px;
+    margin-right: 25px;
+    margin-left: 34px;
+    color: rgb(247, 247, 247);
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    font-size: 21px;
+    margin-left: 20px;
+    color: white;
+    margin-right: 15px;
+}
+
+
+/*****SEC2*****/
+
+.wdessection2{
+    padding-top: 9%;
+    padding-left: 10.25rem;
+    padding-right: 9.15rem;
+    background-color: black;
+}
+
+.desrow1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descol1{
+    width: 50%;
+}
+
+.titledes1{
+    color: white;
+    font-family: "k2dthin" ;
+    font-size: 58px;
+}
+
+.limited{
+    margin-top: 1%;
+    color: white;
+    font-family: "k2dbold" ;
+    font-size: 28px;
+}
+
+.carat{
+    margin-top: 1%;
+    color: white;
+    font-family: "k2dthin" ;
+    font-size: 16px;
+}
+
+.descol2{
+    width: 41%;
+}
+.descol2 img{
+    width: 100%;
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+}
+
+.book {
+    margin-top: 6%;
+    width: 26%;
+    color: white;
+    font-family: "k2dlight";
+    font-size: 13px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+.book:before {
+    content: "";
+    width: -23px;
+    flex: 1 1;
+    border-bottom: 2px solid white;
+    margin: auto;
+    margin-right: 7%;
+}
+
+/****sec3*****/
+
+.wdessection3{
+    padding-top: 9%;
+    padding-left: 10.25rem;
+    padding-right: 9.15rem;
+    background-color: black;
+}
+
+.wdessection3 img{
+    width: 100%;
+}
+
+/*****sec*****/
+
+
+.Artsection2{
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: 9.15rem;
+    padding-right: 9.15rem;
+    background-color: black;
+    background-color: black;
+}
+
+.artrow1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.artrow2 {
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artcol1{
+    width: 40%;
+}
+
+.artintro{
+    font-size: 45px;
+    font-family: "k2dthin";
+    color: white;
+}
+
+.artintro2{
+    margin-top: 6%;
+    font-size: 41px;
+    font-family: "k2dthin";
+    color: white;
+}
+.artdes1{
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: "k2dbold";
+    color: white;
+}
+
+.ok{
+    margin-top: 3%;
+}
+
+.artcol2{
+    width: 50%;
+}
+
+.artcol2 img{
+    width: 100%;
+}
+.Caratdes{
+    font-size: 20px;
+    font-family: "k2dbold";
+    color: white;  
+}
+
+/**SEC4***/
+
+.wdessection4{
+    background-color: black;
+    padding-top: 7%;
+    padding-bottom: 12%;
+    padding-left: 9.15rem;
+}
+
+.rowone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colone{
+    width: 30%;
+}
+
+.other{
+    color: white;
+    font-family: "k2dthin";
+    font-size: 45px;
+}
+
+.rowinsidecol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.otherwatch1{
+    width: 32%;
+    padding: 6%;
+    padding-bottom: 4%;
+    background-color: #F6F5F3;
+}
+.otherwatch1 img{
+    width: 100%;
+}
+
+.descrp{
+
+    margin-top: 4%;
+    color: black;
+    font-family: "k2dbold";
+    text-align: center;
+    font-size: 15px; 
+}
+
+.smalldes{
+    margin-top: 2%;
+    color: black;
+    font-family: "k2dthin";
+    text-align: center;
+    font-size: 13px; 
+}
+
+/**sec10**/
+
+.section10 {
+    background-color: #101010;
+    padding-top: 7%;
+    padding-right: 13.25rem;
+    padding-left: 13.25rem;
+}
+
+.watchlinks {
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlefoot {
+    font-family: "k2dbold";
+    font-size: 23px;
+    margin-bottom: 1%;
+}
+
+.watchli {
+    font-family: "k2dthin";
+    font-size: 20px;
+    line-height: 34px;
+}
+
+/***/
+
+.watchlinkss {
+    color: #fff;
+    display: flex;
+}
+
+.titlefoot {
+    font-family: "k2dbold";
+    font-size: 23px;
+    margin-bottom: 1%;
+}
+
+.watchli {
+    font-family: "k2dthin";
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+}
+
+.socicon {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*sec11*/
+.section11 {
+    background-color: #101010;
+    padding-top: 5%;
+    padding-right: 13.25rem;
+    padding-left: 13.25rem;
+    padding-bottom: 3%;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "k2dbold";
+}
+
+i.fa-regular.fa-copyright {
+    color: white;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+}
